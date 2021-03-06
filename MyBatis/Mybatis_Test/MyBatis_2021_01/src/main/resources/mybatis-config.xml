@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!--核心配置文件-->
+<configuration>
+    <environments default="development">
+        <!--        可以有多个环境-->
+        <environment id="development">
+            <!--            默认JDBC事务管理-->
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <!--                驱动-->
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <!--                useSSL (安全连接) &amp;(转义&) useUnicode(中文编码) characterEncoding(设置编码) severTimezone(时区)-->
+                <property name="url" value="jdbc:mysql://localhost:3306/mybatis?useSSL=true&amp;useUnicode=true&amp;characterEncoding=UTF-8"/>
+                <!--                severTimezone=UTC -->
+                <property name="username" value="root"/>
+                <property name="password" value="701217"/>
+            </dataSource>
+        </environment>
+        <!--        其他环境-->
+    </environments>
+
+    <mappers>
+        <mapper resource="com/chen/dao/UserMapper.xml"/>
+    </mappers>
+</configuration>
+
+
+        <!--删掉-->
+        <!--    <mappers>-->
+        <!--        <mapper resource="org/mybatis/example/BlogMapper.xml"/>-->
+        <!--    </mappers>-->

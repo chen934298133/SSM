@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!--核心配置文件-->
+<configuration>
+    <!--导入properties文件-->
+    <properties resource="db.properties"/>
+
+    <!--配置别名,注意顺序-->
+    <typeAliases>
+<!--        <typeAlias type="com.chen.pojo.User" alias="User"/>-->
+        <package name="com.chen.pojo"/>
+    </typeAliases>
+
+    <environments default="development">
+        <!--        可以有多个环境-->
+        <environment id="development">
+            <!--            默认JDBC事务管理-->
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <!--                驱动-->
+                <property name="driver" value="${driver}"/>
+                <!--                useSSL (安全连接) &amp;(转义&) useUnicode(中文编码) characterEncoding(设置编码) severTimezone(时区)-->
+                <property name="url" value="${url}"/>
+                <!--                severTimezone=UTC -->
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+        <!--        其他环境-->
+    </environments>
+
+    <mappers>
+        <mapper resource="com/chen/dao/UserMapper.xml"/>
+    </mappers>
+</configuration>
+
+
+        <!--删掉-->
+        <!--    <mappers>-->
+        <!--        <mapper resource="org/mybatis/example/BlogMapper.xml"/>-->
+        <!--    </mappers>-->
