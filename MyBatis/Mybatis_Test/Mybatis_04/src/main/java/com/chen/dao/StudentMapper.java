@@ -10,6 +10,7 @@ public interface StudentMapper {
     public List<Student> getStudent();
     public List<Student> getStudent2();
 
-//    public List<Teacher> getTeacher();
+    public List<Teacher> getTeacher1();
+    public List<Teacher> getTeacher(int id);
 
 }

@@ -5,7 +5,7 @@
 <mapper namespace="com.chen.dao.UserMapper">
 
 <!--    resultType SQL语句执行的返回值-->
-<!--    parametterType 参数类型-->
+<!--    parameterType 参数类型-->
     <select id="getUserList" resultType="hello">
         select * from mybatis.user;
     </select>

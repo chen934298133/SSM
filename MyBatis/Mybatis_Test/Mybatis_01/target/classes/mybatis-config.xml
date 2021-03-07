@@ -20,6 +20,7 @@
             </dataSource>
         </environment>
 <!--        其他环境-->
+<!--        <environment id="test">-->
     </environments>
 
     <mappers>

@@ -8,7 +8,7 @@ import org.junit.Test;
 
 import java.util.List;
 
-public class Mytest {
+public class MyTest {
     public static void main(String[] args) {
         SqlSession sqlSession = MybatisUtils.getSqlSession();
         TeacherMapper mapper = sqlSession.getMapper(TeacherMapper.class);
@@ -39,4 +39,14 @@ public class Mytest {
         sqlSession.close();
     }
 
+    @Test
+    public void getTeacher(){
+        SqlSession sqlSession = MybatisUtils.getSqlSession();
+        StudentMapper mapper = sqlSession.getMapper(StudentMapper.class);
+        List<Teacher> teacher = mapper.getTeacher(1);
+        for (Teacher t : teacher) {
+            System.out.println(t);
+        }
+        sqlSession.close();
+    }
 }

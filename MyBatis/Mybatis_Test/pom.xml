@@ -20,6 +20,7 @@
         <module>MyBatis_2021_01</module>
         <module>MyBatis_2021_02</module>
         <module>MyBatis_2021_03</module>
+        <module>Mybatis_08</module>
     </modules>
 
     <!--导入依赖-->

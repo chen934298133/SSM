@@ -14,7 +14,9 @@ public class User {
     private String name;
     private String pwd;
 
-
-    public User(int i, String 赵气, String s) {
+    // 也可以手动添加
+    public User(int id, String name) {
+        this.id = id;
+        this.name = name;
     }
 }
