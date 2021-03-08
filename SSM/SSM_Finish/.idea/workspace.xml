@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SSM_Finish:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="561a8cf8-2353-4429-bc8b-9faade645ff2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Spring/Spring_Study/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/Spring_Study/Spring_IOC_01/src/main/java/com/chen/service/UserServiceImpl_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/Spring_Study/Spring_IOC_01/src/main/java/com/chen/service/UserService_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/Spring_Study/Spring_IOC_01/src/test/java/MyTest_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatis/Mybatis_Test/Mybatis_05/src/main/java/com/chen/dao/TeacherMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyBatis/Mybatis_Test/Mybatis_05/src/main/java/com/chen/dao/TeacherMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatis/Mybatis_Test/Mybatis_05/src/main/resources/com/chen/dao/TeacherMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyBatis/Mybatis_Test/Mybatis_05/src/main/resources/com/chen/dao/TeacherMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatis/Mybatis_Test/Mybatis_05/target/classes/com/chen/dao/TeacherMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyBatis/Mybatis_Test/Mybatis_05/target/classes/com/chen/dao/TeacherMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatis/Mybatis_Test/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyBatis/Mybatis_Test/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring/Spring_Study/Spring_IOC_01/src/main/java/com/chen/dao/UserDaoMysqlImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring/Spring_Study/Spring_IOC_01/src/main/java/com/chen/dao/UserDaoMysqlImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring/Spring_Study/Spring_IOC_01/src/main/java/com/chen/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring/Spring_Study/Spring_IOC_01/src/main/java/com/chen/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring/Spring_Study/Spring_IOC_01/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring/Spring_Study/Spring_IOC_01/src/test/java/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring/Spring_Study/Spring_IOC_01/target/classes/com/chen/dao/UserDaoMysqlImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring/Spring_Study/Spring_IOC_01/target/classes/com/chen/dao/UserDaoMysqlImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring/Spring_Study/Spring_IOC_01/target/classes/com/chen/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring/Spring_Study/Spring_IOC_01/target/classes/com/chen/service/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring/Spring_Study/Spring_IOC_01/target/test-classes/MyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring/Spring_Study/Spring_IOC_01/target/test-classes/MyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring/Spring_Study/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring/Spring_Study/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring/Spring简介.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="G:/maven/java/apache-maven-3.6.0-bin/apache-maven-3.6.0" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dcWgBIx9GYcJRtDlAJqQFolmaa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ssmbuild" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="ssmfinish" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.54" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="SSM_Finish:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/SSM_Finish_war_exploded" />
+          </settings>
+        </artifact>
+        <file path="$PROJECT_DIR$">
+          <settings>
+            <option name="CONTEXT_PATH" value="/SSM_Finish" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SSM_Finish" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50818" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SSM_Finish:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="561a8cf8-2353-4429-bc8b-9faade645ff2" name="Default Changelist" comment="" />
+      <created>1592724970254</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592724970254</updated>
+      <workItem from="1592724977221" duration="153000" />
+      <workItem from="1592725146576" duration="2420000" />
+      <workItem from="1592752986065" duration="5787000" />
+      <workItem from="1593406917323" duration="386000" />
+      <workItem from="1593407351587" duration="26000" />
+      <workItem from="1593407446403" duration="47000" />
+      <workItem from="1612172720130" duration="30000" />
+      <workItem from="1612576321623" duration="27000" />
+      <workItem from="1612576383641" duration="2000" />
+      <workItem from="1612576423584" duration="30000" />
+      <workItem from="1614871207001" duration="407000" />
+      <workItem from="1615197330593" duration="236000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2425" y="-215" key="#Project_Structure" timestamp="1614871283341">
+      <screen x="1920" y="-366" width="2048" height="1152" />
+    </state>
+    <state x="2425" y="-215" key="#Project_Structure/0.0.1536.864/1920.-366.2048.1152@1920.-366.2048.1152" timestamp="1614871283341" />
+    <state x="3237" y="-32" key="FileChooserDialogImpl" timestamp="1615197564451">
+      <screen x="1920" y="-366" width="2048" height="1152" />
+    </state>
+    <state x="3237" y="-32" key="FileChooserDialogImpl/0.0.1536.864/1920.-366.2048.1152@1920.-366.2048.1152" timestamp="1615197564451" />
+  </component>
+</project>

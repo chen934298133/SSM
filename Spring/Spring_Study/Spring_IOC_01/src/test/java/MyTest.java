@@ -1,4 +1,6 @@
 
+import com.chen.dao.UserDaoMysqlImpl;
+import com.chen.service.UserService;
 import com.chen.service.UserServiceImpl;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

@@ -8,5 +8,6 @@
 	- [第一个简约版MyBatis程序](MyBatis_2021_01)
 	- [db.properties优化](MyBatis_2021_02)
 	- [resultMap](MyBatis_2021_03)
-	- [](MyBatis_2021_04)
-	- [](MyBatis_2021_05)
+	- [SQL多对一处理](MyBatis_2021_04)
+	- [SQL一对多处理](MyBatis_2021_05)
+	- [动态SQL](MyBatis_2021_08)

@@ -4,6 +4,7 @@ import com.chen.dao.UserDao;
 
 
 public class UserServiceImpl implements UserService {
+
     private UserDao userDao;
 
     //使用set进行动态值的注入

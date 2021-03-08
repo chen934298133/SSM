@@ -17,8 +17,7 @@
         <module>Spring_IOC_05_appconfig</module>
         <module>Spring_Service_01</module>
         <module>Spring_AOP_01</module>
-        <module>Spring_Proxy_01</module>
-    </modules>
+     </modules>
 
 
     <dependencies>
