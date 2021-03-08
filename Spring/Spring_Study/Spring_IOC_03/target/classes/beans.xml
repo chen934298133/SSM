@@ -1,0 +1,65 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <!--id : bean的唯一标识符，也就是相当于对象名
+        class : bean对象所对应的全限定名: 包名 + 类型
+        name : 也是别名，而且name可以同时取多个别名
+        -->
+
+    <bean id="Address" class="com.chen.pojo.Address">
+        <property name="address" value="earth"/>
+    </bean>
+    <bean name="Student" class="com.chen.pojo.Student">
+<!--        第一种，普通值注入 value-->
+        <property name="name" value="chen"/>
+<!--        第二种，Bean注入，ref-->
+        <property name="address" ref="Address"/>
+<!--        数组注入-->
+        <property name="books">
+            <array>
+                <value>西游记</value>
+                <value>三国演义</value>
+                <value>水浒传</value>
+                <value>红楼梦</value>
+            </array>
+        </property>
+<!--        List注入-->
+        <property name="hobbies">
+            <list>
+                <value>singing</value>
+                <value>running</value>
+            </list>
+        </property>
+<!--        Map-->
+        <property name="card">
+            <map>
+                <entry key="id" value="123123"/>
+                <entry key="qq" value="934298133"/>
+            </map>
+        </property>
+<!--        Set-->
+        <property name="games">
+            <set>
+                <value>lol</value>
+                <value>nba</value>
+            </set>
+        </property>
+<!--        null-->
+        <property name="wife">
+            <null/>
+        </property>
+<!--        properties-->
+        <property name="info">
+            <props>
+                <prop key="id">1</prop>
+                <prop key="url">man</prop>
+                <prop key="username">root</prop>
+                <prop key="pwd">123123</prop>
+            </props>
+        </property>
+    </bean>
+
+</beans>

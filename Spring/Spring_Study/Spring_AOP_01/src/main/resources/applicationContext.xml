@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        https://www.springframework.org/schema/aop/spring-aop.xsd
+">
+<!--    注册bean-->
+    <bean id="userService" class="com.chen.service.UserServiceImpl"/>
+    <bean id="AfterLog" class="com.chen.log.AfterLog"/>
+    <bean id="log" class="com.chen.log.log"/>
+
+<!--    使用原生SpringAPI接口-->
+<!--    配置aop:需要导入aop的约束-->
+<!--    <aop:config>-->
+<!--&lt;!&ndash;        切入点：expression 表达式：execution（要执行的位置）&ndash;&gt;-->
+<!--        <aop:pointcut id="pointcut" expression="execution(* com.chen.service.UserServiceImpl.*(..))"/>-->
+<!--&lt;!&ndash;        执行环绕增加&ndash;&gt;-->
+<!--        <aop:advisor advice-ref="log" pointcut-ref="pointcut"/>-->
+<!--        <aop:advisor advice-ref="AfterLog" pointcut-ref="pointcut"/>-->
+<!--    </aop:config>-->
+
+<!--    方式二：使用自定义类-->
+<!--    <bean id="diy" class="com.chen.diy.DiyPointCut"/>-->
+
+<!--    <aop:config>-->
+<!--&lt;!&ndash;        自定义切面，ref要引用的类&ndash;&gt;-->
+<!--        <aop:aspect ref="diy">-->
+<!--&lt;!&ndash;            切入点&ndash;&gt;-->
+<!--&lt;!&ndash;            execution表达式的包名第一个*表示返回类型，*好表示所有的类型&ndash;&gt;-->
+<!--&lt;!&ndash;            包名：表示需要拦截的包名，后面的两个点表示当前包和当前包的所有子包&ndash;&gt;-->
+<!--&lt;!&ndash;            第二个*号表示类名，表示所有的类&ndash;&gt;-->
+<!--&lt;!&ndash;            *(..)表示方法名，*号表示所有的方法，后面括弧里面白哦是方法的参数，两个..表示任何参数&ndash;&gt;-->
+<!--            <aop:pointcut id="point" expression="execution(* com.chen.service.UserServiceImpl.*(..))"/>-->
+<!--&lt;!&ndash;        通知&ndash;&gt;-->
+<!--            <aop:before method="before" pointcut-ref="point"   />-->
+<!--            <aop:after method="after" pointcut-ref="point"/>-->
+<!--        </aop:aspect>-->
+<!--    </aop:config>-->
+
+<!--    方式三-->
+    <bean id="AnnotationPointCut" class="com.chen.diy.AnnotationPointCut"/>
+<!--    开启注解支持-->
+    <aop:aspectj-autoproxy/>
+</beans>
+
