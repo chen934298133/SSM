@@ -1,35 +1,3 @@
-# &#127800; SSM 整合 —— 添加业务需求 &#127800; 
-
-## &#127800; 添加书籍功能编写
-(Controller 添加代码 + Jsp层添加文件 )
-
-### 1 BookController 类编写 (添加需求时需要增加)
-
-<details>
-<summary> &#127809; BookController &#127809; </summary>
-  
-```java
-@RequestMapping("/toAddBook")
-public String toAddPaper() {
-   return "addBook";
-}
-
-@RequestMapping("/addBook")
-public String addPaper(Books books) {
-   System.out.println(books);
-   bookService.addBook(books);
-   return "redirect:/book/allBook";
-}
-```
-</details>
-  
-  
-### 2 书籍列表页面 addBook.jsp(对应相应功能)
-  
-<details>
-<summary> &#127809; addBook.jsp &#127809; </summary>
-  
-```html
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
@@ -60,5 +28,3 @@ public String addPaper(Books books) {
     </form>
 
 </div>
-```
-</details>
