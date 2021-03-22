@@ -30,7 +30,7 @@
         <div class="col-md-8 column">
             <form class="form-inline" action="${pageContext.request.contextPath}/book/queryBook" method="post" style="...">
                 <span style="color: red; font-weight: bold">${error}</span>
-                <input type="text" name="queryBookName" class="form-control" placeholder="请输入要查询的书籍">
+                <input type="text" name="queryBookName" class="form-control" placeholder="请输入要查询的书籍名称">
                 <input type="submit" value="查询" class="btn btn-primary">
             </form>
         </div>
